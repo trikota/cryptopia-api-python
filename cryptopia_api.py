@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """ This is a wrapper for Cryptopia.co.nz API """
 
 import urllib
