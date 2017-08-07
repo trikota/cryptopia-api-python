@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Crypto Crew Technologies
+Crypto Crew Technologies (thebotguy@usa.com)
 
 Disclaimer: This does not guarantee profit and you can still lose money if your
 sell order does not fill. (A sell order set too high may not be filled)
@@ -9,6 +9,8 @@ sell order does not fill. (A sell order set too high may not be filled)
 It is all dependent on the volume of the pump and how much you are intending to liquidate.
 Build up your profits gradually and do not be too greedy, else you can be caught holding
 the bag. Do proper preparation to know how much to use and where to set your buy/sell at!
+
+This program is for educational use only and is provided AS IS. Check the LICENSE file of this repository.
 """
 
 import json
