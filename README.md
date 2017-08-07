@@ -21,11 +21,9 @@ Just import it and use it.
 from cryptopia_api import Api
 
 #later...
-
 api_wrapper = Api(MY_PUBLIC_KEY, MY_SECRET_KEY)
 
-#call a request to the api
-
+#call a request to the api, like balance in BTC...
 balance, error = api_wrapper.get_balance('BTC')
 if error is not None:
     #handle error
