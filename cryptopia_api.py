@@ -8,7 +8,6 @@ import hashlib
 import base64
 import requests
 
-
 class Api(object):
     """ Represents a wrapper for cryptopia API """
 
