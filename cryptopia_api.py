@@ -13,6 +13,7 @@ import requests
 
 class Api(object):
     """ Represents a wrapper for cryptopia API """
+
     def __init__(self, key, secret):
         self.key = key
         self.secret = secret
@@ -48,7 +49,8 @@ class Api(object):
             return (result, error)
         elif feature_requested in self.public:
             url = "https://www.cryptopia.co.nz/Api/" + feature_requested + "/" + \
-                  '/'.join(i for i in get_parameters.values()) if get_parameters != None else ""
+                  '/'.join(i for i in get_parameters.values()
+                           ) if get_parameters != None else ""
             req = requests.get(url, params=get_parameters)
             if req.status_code != 200:
                 try:
@@ -171,8 +173,9 @@ class Api(object):
         md5 = hashlib.md5()
         md5.update(post_data)
         rcb64 = base64.b64encode(md5.digest())
-        signature = self.key + "POST" + urllib.quote_plus(url).lower() + nonce + rcb64
-        sign = base64.b64encode(hmac.new(self.secret, signature, hashlib.sha256).digest())
+        signature = self.key + "POST" + \
+            urllib.quote_plus(url).lower() + nonce + rcb64
+        sign = base64.b64encode(
+            hmac.new(self.secret, signature, hashlib.sha256).digest())
         header_value = "amx " + self.key + ":" + sign + ":" + nonce
-        return {'Authorization': header_value, 'Content-Type':'application/json; charset=utf-8'}
-    
+        return {'Authorization': header_value, 'Content-Type': 'application/json; charset=utf-8'}

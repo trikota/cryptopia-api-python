@@ -6,7 +6,6 @@ This wrapper provides a friendly way to call Cryptopia API from a Python 2.7 scr
 
 ## Usage
 Just import it and use it.
-
 ``` python
 from cryptopia_api import Api
 
