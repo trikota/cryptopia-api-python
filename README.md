@@ -1,17 +1,7 @@
 # Cryptopia python API by CC Tech
 Alessandro Sanino AKA The Bot Guy (thebotguy@usa.com)
 
-Disclaimer: This does not guarantee profit and you can still lose money if your
-sell order does not fill. (A sell order set too high may not be filled)
-
-It is all dependent on the volume of the pump and how much you are intending to liquidate.
-Build up your profits gradually and do not be too greedy, else you can be caught holding
-the bag. Do proper preparation to know how much to use and where to set your buy/sell at!
-
-This program is for educational purposes only and is provided AS IS and without warranty.
-Please check LICENSE file.
-
-# Overview
+## Overview
 This wrapper provides a friendly way to call Cryptopia API from a Python 2.7 script. Requires requests 2.8.1
 
 ## Usage
