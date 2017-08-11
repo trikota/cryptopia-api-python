@@ -1,5 +1,5 @@
 # Cryptopia python API by CC Tech
-Alessandro Sanino AKA The Bot Guy (thebotguy@usa.com)
+The Bot Guy (thebotguy@usa.com)
 
 ## Overview
 This wrapper provides a friendly way to call Cryptopia API from a Python 2.7 script. Requires requests 2.8.1
@@ -29,7 +29,6 @@ Feel free to donate:
 
 | METHOD 	| ADDRESS                                   	|
 |--------	|--------------------------------------------	|
-| Paypal 	| https://paypal.me/AlessandroSanino         	|
 | BTC    	| 1DVgmv6jkUiGrnuEv1swdGRyhQsZjX9MT3         	|
 | XVG    	| DFstPiWFXjX8UCyUCxfeVpk6JkgaLBSNvS         	|
 | ETH    	| 0x2fe7bd8a41e91e9284aada0055dbb15ecececf02 	|
