@@ -1,5 +1,5 @@
 # Cryptopia python API by CC Tech
-The Bot Guy (thebotguy@usa.com)
+The Bot Guy (thebotguy@protonmail.com)
 
 ## Overview
 This wrapper provides a friendly way to call Cryptopia API from a Python 2.7 script. Requires requests 2.8.1
