@@ -13,7 +13,7 @@ class Api(object):
 
     def __init__(self, key, secret):
         self.key = key
-        self.secret = secret
+        self.secret = base64.b64decode(secret + '=' * (-len(secret) % 4))
         self.public = ['GetCurrencies', 'GetTradePairs', 'GetMarkets',
                        'GetMarket', 'GetMarketHistory', 'GetMarketOrders', 'GetMarketOrderGroups']
         self.private = ['GetBalance', 'GetDepositAddress', 'GetOpenOrders',
